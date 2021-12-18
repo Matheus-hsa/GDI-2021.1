@@ -1,5 +1,3 @@
-
-
 CREATE TABLE turma (
 	codT VARCHAR(6),
 	descricao VARCHAR(255),
@@ -9,10 +7,10 @@ CREATE TABLE turma (
 CREATE TABLE aluno (
 
 	cpf VARCHAR(11),
-	nome VARCHAR(50),
-	curso VARCHAR(20),
+	nome VARCHAR(50) NOT NULL,
+	curso VARCHAR(20) NOT NULL,
 	sexo VARCHAR(10),
-	datnsc DATE,
+	datnsc DATE NOT NULL,
 	end_CEP NUMBER,
 	end_Descricao VARCHAR(30),
 	CONSTRAINT PK_aluno_cpf PRIMARY KEY (cpf)
@@ -44,9 +42,9 @@ CREATE TABLE projeto (
 CREATE TABLE func (
 
 	cpf VARCHAR(11),
-	nome VARCHAR(50),
+	nome VARCHAR(50) NOT NULL,
 	sexo VARCHAR(10),
-	datnsc DATE,
+	datnsc DATE NOT NULL,
 	end_CEP NUMBER,
 	end_Descricao VARCHAR(30),
 	CONSTRAINT PK_func_cpf PRIMARY KEY (cpf)
@@ -62,7 +60,7 @@ CREATE TABLE funcTelefone (
 CREATE TABLE terceirizados (
 
 	cpf VARCHAR(11),
-	cargo VARCHAR(15),
+	cargo VARCHAR(15) NOT NULL,
 	salario NUMBER(6,2) NOT NULL,
 	chefe VARCHAR(11),
 	CONSTRAINT CHK_salario_terceirizados CHECK (salario > 0),
@@ -74,7 +72,7 @@ CREATE TABLE terceirizados (
 CREATE TABLE diretoria (
 
 	cpf VARCHAR(11),
-	cargo VARCHAR(15),
+	cargo VARCHAR(15) NOT NULL,
 	salario NUMBER(6,2) NOT NULL,
 	CONSTRAINT CHK_salario_diretoria CHECK (salario > 0),
 	CONSTRAINT PK_diretoria PRIMARY KEY (cpf),
@@ -85,7 +83,7 @@ CREATE TABLE diretoria (
 CREATE TABLE docente (
 
 	cpf VARCHAR(11),
-	datAdmi DATE,
+	datAdmi DATE NOT NULL,
 	especializacao VARCHAR(15),
 	salario NUMBER(6,2) NOT NULL,
 	CONSTRAINT CHK_salario_docente CHECK (salario > 0),
