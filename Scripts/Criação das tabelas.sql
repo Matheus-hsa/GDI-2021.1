@@ -2,6 +2,7 @@
 
 CREATE TABLE turma (
 	codT VARCHAR(6),
+	descricao VARCHAR(255),
 	CONSTRAINT PK_turma_codturma PRIMARY KEY (codT)
 );
 
