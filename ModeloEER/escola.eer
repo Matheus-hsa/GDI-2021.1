@@ -16,7 +16,7 @@
     <nodes xmi:type="eer:Attribute" xmi:id="_NuYrwCkcEeyzovj5kIVMbQ" name="cargo" AttributeLinkTarget="_9E77UCkdEeyzovj5kIVMbQ"/>
     <nodes xmi:type="eer:Attribute" xmi:id="_OKxs0CkcEeyzovj5kIVMbQ" name="salario" AttributeLinkTarget="_8J6dgCkdEeyzovj5kIVMbQ"/>
     <nodes xmi:type="eer:Attribute" xmi:id="_O9_ScCkcEeyzovj5kIVMbQ" name="salario" AttributeLinkTarget="_7pa_kCkdEeyzovj5kIVMbQ"/>
-    <nodes xmi:type="eer:Attribute" xmi:id="_Pm00ECkcEeyzovj5kIVMbQ" name="datadmi" AttributeLinkTarget="_7KrOECkdEeyzovj5kIVMbQ"/>
+    <nodes xmi:type="eer:Attribute" xmi:id="_Pm00ECkcEeyzovj5kIVMbQ" name="datAdmi" AttributeLinkTarget="_7KrOECkdEeyzovj5kIVMbQ"/>
     <nodes xmi:type="eer:Relationship" xmi:id="_Yx4OYCkcEeyzovj5kIVMbQ" name="comanda" relationshipLink="_BiC_0CkeEeyzovj5kIVMbQ _CCh2sCkeEeyzovj5kIVMbQ"/>
     <nodes xmi:type="eer:Attribute" xmi:id="_QVgCgCkdEeyzovj5kIVMbQ" name="cep" AttributeLinkTarget="_TtNlMCkdEeyzovj5kIVMbQ"/>
     <nodes xmi:type="eer:Attribute" xmi:id="_RgOwQCkdEeyzovj5kIVMbQ" name="descri" AttributeLinkTarget="_VGLjQCkdEeyzovj5kIVMbQ"/>
@@ -28,7 +28,7 @@
     <nodes xmi:type="eer:Entity" xmi:id="_6SjBUCkfEeyzovj5kIVMbQ" name="Projeto" AttributeLinkSource="_1dMmgCkgEeyzovj5kIVMbQ" relationshipLink="_AdEC0CkgEeyzovj5kIVMbQ" isWeak="true"/>
     <nodes xmi:type="eer:Relationship" xmi:id="_9Vyv4CkfEeyzovj5kIVMbQ" name="tem" isIdentifier="true" relationshipLink="_AdEC0CkgEeyzovj5kIVMbQ _CD7S8CkgEeyzovj5kIVMbQ"/>
     <nodes xmi:type="eer:Attribute" xmi:id="_x3H3sCkgEeyzovj5kIVMbQ" name="ano" type="DISCRIMINATOR" AttributeLinkTarget="_1dMmgCkgEeyzovj5kIVMbQ"/>
-    <nodes xmi:type="eer:Entity" xmi:id="_DZJukCkiEeyzovj5kIVMbQ" name="Turma" AttributeLinkSource="_zfrfACkiEeyzovj5kIVMbQ" relationshipLink="_aDqXoCkiEeyzovj5kIVMbQ _-pDAICkiEeyzovj5kIVMbQ _jnHjgCklEeyzovj5kIVMbQ _-hY8ICkmEeyzovj5kIVMbQ"/>
+    <nodes xmi:type="eer:Entity" xmi:id="_DZJukCkiEeyzovj5kIVMbQ" name="Turma" AttributeLinkSource="_zfrfACkiEeyzovj5kIVMbQ _IMhLEGBFEeyBw46BJ5l-LQ" relationshipLink="_aDqXoCkiEeyzovj5kIVMbQ _-pDAICkiEeyzovj5kIVMbQ _jnHjgCklEeyzovj5kIVMbQ _-hY8ICkmEeyzovj5kIVMbQ"/>
     <nodes xmi:type="eer:Relationship" xmi:id="_W2fRACkiEeyzovj5kIVMbQ" name="aula" relationshipLink="_ZMrFQCkiEeyzovj5kIVMbQ _aDqXoCkiEeyzovj5kIVMbQ"/>
     <nodes xmi:type="eer:Attribute" xmi:id="_wysUUCkiEeyzovj5kIVMbQ" name="codT" type="IDENTIFIER" AttributeLinkTarget="_zfrfACkiEeyzovj5kIVMbQ"/>
     <nodes xmi:type="eer:Relationship" xmi:id="_6XAjMCkiEeyzovj5kIVMbQ" name="oferta" relationshipLink="_-pDAICkiEeyzovj5kIVMbQ _Cr6YoCkjEeyzovj5kIVMbQ"/>
@@ -47,7 +47,8 @@
     <nodes xmi:type="eer:Attribute" xmi:id="_TwpkoCkmEeyzovj5kIVMbQ" name="semeste" type="DISCRIMINATOR" AttributeLinkTarget="_ZrRI8CkmEeyzovj5kIVMbQ"/>
     <nodes xmi:type="eer:Relationship" xmi:id="_46gMICkmEeyzovj5kIVMbQ" name="monitoria" AttributeLinkSource="_D-3RcCknEeyzovj5kIVMbQ" relationshipLink="_8cXwYCkmEeyzovj5kIVMbQ _94yEACkmEeyzovj5kIVMbQ _-hY8ICkmEeyzovj5kIVMbQ"/>
     <nodes xmi:type="eer:Attribute" xmi:id="_Cpn80CknEeyzovj5kIVMbQ" name="semestre" type="DISCRIMINATOR" AttributeLinkTarget="_D-3RcCknEeyzovj5kIVMbQ"/>
-    <nodes xmi:type="eer:Attribute" xmi:id="_ncAfgCknEeyzovj5kIVMbQ" name="especislizacao" AttributeLinkTarget="_ocnn8CknEeyzovj5kIVMbQ"/>
+    <nodes xmi:type="eer:Attribute" xmi:id="_ncAfgCknEeyzovj5kIVMbQ" name="especializacao" AttributeLinkTarget="_ocnn8CknEeyzovj5kIVMbQ"/>
+    <nodes xmi:type="eer:Attribute" xmi:id="_3qrJYGBEEeyBw46BJ5l-LQ" name="descricao" AttributeLinkTarget="_IMhLEGBFEeyBw46BJ5l-LQ"/>
     <links xmi:type="eer:AttributeLink" xmi:id="_CDPd0CkdEeyzovj5kIVMbQ" source="_qJOxMCkbEeyzovj5kIVMbQ" target="_uwEZcCkbEeyzovj5kIVMbQ"/>
     <links xmi:type="eer:AttributeLink" xmi:id="_C1AR8CkdEeyzovj5kIVMbQ" source="_qJOxMCkbEeyzovj5kIVMbQ" target="_ujZ2cCkbEeyzovj5kIVMbQ"/>
     <links xmi:type="eer:AttributeLink" xmi:id="_GWKrkCkdEeyzovj5kIVMbQ" source="_qJOxMCkbEeyzovj5kIVMbQ" target="_uTLpICkbEeyzovj5kIVMbQ"/>
@@ -98,6 +99,7 @@
     <links xmi:type="eer:RelationshipLink" xmi:id="_-hY8ICkmEeyzovj5kIVMbQ" source="_DZJukCkiEeyzovj5kIVMbQ" target="_46gMICkmEeyzovj5kIVMbQ" cardinality="MANY"/>
     <links xmi:type="eer:AttributeLink" xmi:id="_D-3RcCknEeyzovj5kIVMbQ" source="_46gMICkmEeyzovj5kIVMbQ" target="_Cpn80CknEeyzovj5kIVMbQ"/>
     <links xmi:type="eer:AttributeLink" xmi:id="_ocnn8CknEeyzovj5kIVMbQ" source="_2i9uACkbEeyzovj5kIVMbQ" target="_ncAfgCknEeyzovj5kIVMbQ"/>
+    <links xmi:type="eer:AttributeLink" xmi:id="_IMhLEGBFEeyBw46BJ5l-LQ" source="_DZJukCkiEeyzovj5kIVMbQ" target="_3qrJYGBEEeyBw46BJ5l-LQ"/>
   </eer:Schema>
   <notation:Diagram xmi:id="_om1KUCkbEeyzovj5kIVMbQ" type="Eer" element="_ol7ycCkbEeyzovj5kIVMbQ" name="escola.eer" measurementUnit="Pixel">
     <children xmi:type="notation:Node" xmi:id="_qJhsICkbEeyzovj5kIVMbQ" type="2001" element="_qJOxMCkbEeyzovj5kIVMbQ">
@@ -428,6 +430,13 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_ncAfgyknEeyzovj5kIVMbQ" fontName="Segoe UI"/>
       <styles xmi:type="notation:FillStyle" xmi:id="_ncAfhCknEeyzovj5kIVMbQ"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ncAfhSknEeyzovj5kIVMbQ" x="45" y="785"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_3skm0GBEEeyBw46BJ5l-LQ" type="2004" element="_3qrJYGBEEeyBw46BJ5l-LQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_3snqIGBEEeyBw46BJ5l-LQ" type="5005"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_3slN4GBEEeyBw46BJ5l-LQ"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_3slN4WBEEeyBw46BJ5l-LQ" fontName="Segoe UI"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_3slN4mBEEeyBw46BJ5l-LQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3slN42BEEeyBw46BJ5l-LQ" x="-140" y="490" width="91" height="31"/>
     </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_om1KUSkbEeyzovj5kIVMbQ"/>
     <edges xmi:type="notation:Edge" xmi:id="_D6PbsCkdEeyzovj5kIVMbQ" type="4007" element="_CDPd0CkdEeyzovj5kIVMbQ" source="_qJhsICkbEeyzovj5kIVMbQ" target="_uwOKcCkbEeyzovj5kIVMbQ">
@@ -819,6 +828,13 @@
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ocnn9CknEeyzovj5kIVMbQ" points="[-2, 4, 25, -94]$[-26, 97, 1, -1]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ocnn9SknEeyzovj5kIVMbQ" id="(0.36666666666666664,0.9)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ocnn9iknEeyzovj5kIVMbQ" id="(0.8888888888888888,0.16)"/>
+    </edges>
+    <edges xmi:type="notation:Edge" xmi:id="_IMkOYGBFEeyBw46BJ5l-LQ" type="4007" element="_IMhLEGBFEeyBw46BJ5l-LQ" source="_DZJukSkiEeyzovj5kIVMbQ" target="_3skm0GBEEeyBw46BJ5l-LQ">
+      <styles xmi:type="notation:RoutingStyle" xmi:id="_IMkOYWBFEeyBw46BJ5l-LQ"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_IMkOYmBFEeyBw46BJ5l-LQ" fontName="Segoe UI"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IMkOY2BFEeyBw46BJ5l-LQ" points="[7, -14, -73, 130]$[71, -145, -9, -1]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IMof0GBFEeyBw46BJ5l-LQ" id="(0.8103448275862069,0.30434782608695654)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IMof0WBFEeyBw46BJ5l-LQ" id="(0.0989010989010989,0.4838709677419355)"/>
     </edges>
   </notation:Diagram>
 </xmi:XMI>
