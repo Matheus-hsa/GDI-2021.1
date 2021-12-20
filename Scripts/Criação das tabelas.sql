@@ -104,7 +104,6 @@ CREATE TABLE matriculaTurAlu (
 	semestre VARCHAR(10),
 	cpf VARCHAR(11),
 	nota NUMBER (4,2) NOT NULL,
-	nome VARCHAR(50) NOT NULL,
 	CONSTRAINT FK_matriculaTurAluCodT FOREIGN KEY (codT) REFERENCES turma (codT),
 	CONSTRAINT FK_matriculaTurAluCPF FOREIGN KEY (cpf) REFERENCES aluno (cpf)
 );
